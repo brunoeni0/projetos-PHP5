@@ -8,13 +8,13 @@
 <body>
 <div>
     <?php
-		$x = $_GET["a"];
+		$x = $_GET["x"];
 		$y = $x;
-		$y += $_GET["b"];
+		$y += $_GET["y"];
 		echo "A váriavel X vale: $x e a váriavel Y vale: $y <br/>";
-		$x = $_GET["a"];
+		$x = $_GET["x"];
 		$y = &$x; // serve para vincular uma variável a outra.
-		$y += $_GET["b"];
+		$y += $_GET["y"];
 		echo "A váriavel X vale: $x e a váriavel Y vale: $y";
     ?>
 </div>

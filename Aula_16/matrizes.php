@@ -14,7 +14,7 @@
 						    array(9, 5));
 						   
 				$m[2][0] = $m[1][1];
-				print_r($n);
+				print_r($m);
 			?>
 		</pre>
 	</div>

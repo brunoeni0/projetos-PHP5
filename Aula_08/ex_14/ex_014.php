@@ -15,10 +15,10 @@
 					echo "O dobro de <span class='foco'>$valor</span> é <span class='foco'>", $valor + $valor, "</span>"; // $valor * 2
 					break;
 				case 2:
-					echo "O cubo de <span class='foco'>$valor</span> é <span class='foco'>", pow($valor, 3), "</span>"; // $valor ^ 3
+					echo "O cubo de <span class='foco'>$valor</span> é <span class='foco'>", pow($valor, 3), "</span>";
 					break;
 				case 3:
-					echo "A raiz de <span class='foco'>$valor</span> é <span class='foco'>". sqrt($valor), "</span>"; // $valor ^ (1/2) ou $valor ^ 0.5
+					echo "A raiz de <span class='foco'>$valor</span> é <span class='foco'>". sqrt($valor), "</span>"; 
 					break;
 				default:
 					echo ("Erro valor dígitado inválido!");

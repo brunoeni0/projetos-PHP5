@@ -13,7 +13,7 @@
 			$tot = $n1 - $n2;
 			echo ("A subtração de $n1 - $n2 = $tot <br>");
 			echo "A subtração de $n1 - $n2 = ". $tot;
-			echo '<br>A subtração de $n1 - %n2'. ($n1-$n2);
+			echo '<br>A subtração de $n1 - $n2 = '. ($n1-$n2);
 			echo "<br>A subtração de $n1 - $n2 = ". ($n1-$n2);
 		?>
 	</div>

@@ -10,7 +10,7 @@
 		<?php
 			$nome = "guStAvO GuaNaBaRa";
 			$nome2 = ucfirst($nome);
-			echo "Seu nome é $nome2";
+			echo "Seu nome é $nome2 <br>";
 			$nome2 = ucfirst(strtolower($nome));
 			echo "Seu nome é $nome2";
 		?>
